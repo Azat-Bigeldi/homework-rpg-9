@@ -19,7 +19,7 @@ public class Hero {
     private final int defense;
     private Inventory inventory;
 
-    public Hero(String name, int hp, int attackPower, int defense) {
+    public Hero(String name, int hp, int attackPower, int defense, int i, int i1, int i2, Inventory inventory) {
         this(name, hp, 0, attackPower, defense, 0, new Inventory());
     }
 
